@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    React News 🗞️
+    Ignews 🗞️
 </h1>
 
 Get our hottest development articles. Read with more quality. Keep up to date. Save time.
@@ -21,7 +21,7 @@ Get our hottest development articles. Read with more quality. Keep up to date. S
 
 <br />
 
-**Internal Posts**
+**Preview Posts**
 
 <img src="./src/assets/screenshots/InternalPosts.png" alt="internal posts"/>
 
