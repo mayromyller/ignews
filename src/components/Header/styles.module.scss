@@ -15,44 +15,44 @@
   button {
     margin-left: auto;
   }
-}
 
-.navigation {
-  margin-left: 5rem;
-  height: 5rem;
-}
-
-.navigation__link {
-  display: inline-block;
-  position: relative;
-  padding: 0 0.5rem;
-  height: 5rem;
-  line-height: 5rem;
-  color: var(--gray-300);
-  transition: color 0.2s;
-  cursor: pointer;
-
-  &:hover {
-    color: var(--white);
+  nav {
+    margin-left: 5rem;
+    height: 5rem;
   }
 
-  &.active {
-    color: var(--white);
-    font-weight: bold;
-  }
+  a {
+    display: inline-block;
+    position: relative;
+    padding: 0 0.5rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: var(--gray-300);
+    transition: color 0.2s;
+    cursor: pointer;
 
-  &.active::after {
-    content: '';
-    height: 3px;
-    border-radius: 3px 3px 0 0;
-    width: 100%;
-    position: absolute;
-    bottom: 1px;
-    left: 0;
-    background: var(--yellow-500);
-  }
+    &:hover {
+      color: var(--white);
+    }
 
-  & + .navigation__link {
-    margin-left: 2rem;
+    &.active {
+      color: var(--white);
+      font-weight: bold;
+    }
+
+    &.active::after {
+      content: '';
+      height: 3px;
+      border-radius: 3px 3px 0 0;
+      width: 100%;
+      position: absolute;
+      bottom: 1px;
+      left: 0;
+      background: var(--yellow-500);
+    }
+
+    & + a {
+      margin-left: 2rem;
+    }
   }
 }
